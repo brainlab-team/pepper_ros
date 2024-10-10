@@ -11,7 +11,6 @@ This project involves programming the Pepper robot using ROS Indigo on Ubuntu 14
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
