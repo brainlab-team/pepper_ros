@@ -38,11 +38,13 @@ Install the necessary ROS packages:
 ```bash
 sudo apt-get update
 sudo apt-get install ros-indigo-desktop-full ros-indigo-moveit ros-indigo-navigation
+'''
 
 For Python packages:
 
 ```bash
 pip install -r requirements.txt
+'''
 
 For C++ dependencies, make sure to install:
 
@@ -57,17 +59,20 @@ For C++ dependencies, make sure to install:
 '''bash
 git clone https://github.com/yourusername/pepper-ros-project.git
 cd pepper-ros-project
+'''
 
 2) Initialize your ROS workspace:
 
 '''bash
 catkin_make
 source devel/setup.bash
+'''
 
 3) Install additional dependencies via rosdep:
 
 '''bash
 rosdep install --from-paths src --ignore-src -r -y
+'''
 
 ## Usage
 ### Running the Python Nodes
@@ -76,6 +81,7 @@ To run a Python 2.7 node to control Pepper:
 
 '''bash
 rosrun your_package_name move_pepper.py
+'''
 
 ### Running the C++ Nodes
 
@@ -84,12 +90,14 @@ To compile and run the C++ nodes:
 '''bash
 catkin_make
 rosrun your_package_name move_pepper_cpp
+'''
 
 ### Launching with ROS
 To launch the entire setup, use the provided launch files:
 
 '''bash
 roslaunch your_package_name pepper_control.launch
+'''
 
 ## Contributing
 Contributions are welcome! To contribute:
