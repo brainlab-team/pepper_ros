@@ -69,15 +69,15 @@ source devel/setup.bash
 '''bash
 rosdep install --from-paths src --ignore-src -r -y
 
-##Usage
-###Running the Python Nodes
+## Usage
+### Running the Python Nodes
 
 To run a Python 2.7 node to control Pepper:
 
 '''bash
 rosrun your_package_name move_pepper.py
 
-###Running the C++ Nodes
+### Running the C++ Nodes
 
 To compile and run the C++ nodes:
 
@@ -85,13 +85,13 @@ To compile and run the C++ nodes:
 catkin_make
 rosrun your_package_name move_pepper_cpp
 
-###Launching with ROS
+### Launching with ROS
 To launch the entire setup, use the provided launch files:
 
 '''bash
 roslaunch your_package_name pepper_control.launch
 
-##Contributing
+## Contributing
 Contributions are welcome! To contribute:
 
 1. Fork the repository.
