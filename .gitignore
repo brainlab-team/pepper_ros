@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Virtualenv
+venv/
+.venv/
+
+# C++
+*.o
+*.obj
+*.so
+*.out
+
+# Build directories
+/build/
+/devel/
+
+# ROS specific
+log/
+*.bag
+*.log
+*.db
+*.test
+install/
+catkin_ws/
+.catkin_workspace
+ros_ws/
+ros/devel/
+ros/build/
+
+# ROS dependencies
+*.rosinstall
+src/CMakeLists.txt
+
+# IDE specific
+.vscode/
+.idea/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Other
+*.swp
+*.tmp
+*.backup
